@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+
+    nav {
+        width: 30vw;
+    }
+
+    article {
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .coluna,
+    nav,
+    article {
+        width: 100%;
+        min-width: 320px;
+
+    }
+}

@@ -1,0 +1,73 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+footer {
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: #333333;
+}
+
+div {
+    margin: 40px auto;
+}
+
+
+/* Círculo*/
+#grafico-01 {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#grafico-01 img {
+    width: 100%;
+    height: auto;
+}
+
+#imagem-vetorial {
+    margin-left: 40%;
+}
+
+#grafico-02 {
+    background: transparent;
+    border-style: solid;
+    border-width: 90px 0 90px 180px;
+    border-color: transparent transparent transparent blue;
+    width: 60px;
+}
+
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+#grafico-01 {
+    filter: drop-shadow(8px 8px 10px #333);
+}
+
+/*filtros*/
+.filtro {
+    filter: grayscale(100%);
+    filter: blur(5px);
+    filter: brightness(50%);
+    filter: invert(100%);
+    filter: opacity(50%);
+    filter: saturate(200%) sepia(100%) blur(5px);
+
+}
+
+.filtro:hover {
+    filter: grayscale(0%);
+
+
+}
